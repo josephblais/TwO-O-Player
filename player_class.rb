@@ -8,8 +8,15 @@
 class Player
   attr_accessor :lives
   
-  def initialize(id)
-    @id
+  def initialize
     @lives = 3
   end
 end
+
+
+# TEST CODE
+# player1 = Player.new
+# player2 = Player.new
+# player2.lives = 2
+# puts player1.lives
+# puts player2.lives
